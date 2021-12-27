@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 4bafc466f7f02da4486a53aa68b037f1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Kopf
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 786
+      width: 53
+      height: 68
+    spriteID: 629c281c73ef75148a59cf92003de22b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 232, y: 194}
+  - name: Stachel kopf
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 299
+      width: 46
+      height: 115
+    spriteID: 14ab5ddda283f64438cb64a826225674
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 147, y: -361}
+  - name: STachel kopf 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 481
+      y: 786
+      width: 21
+      height: 93
+    spriteID: f787ade33d70954459c71db81df9b411
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 287, y: 140}
+  - name: Waffe Rechte Hand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 299
+      width: 260
+      height: 479
+    spriteID: 633127944b6c0e74fa31fb730d9a28a2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -237, y: -18}
+  - name: "Stachel R\xFCcken "
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 786
+      width: 158
+      height: 122
+    spriteID: 5623c4e724e669c46be82977d000a328
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -38, y: 140}
+  - name: Rock
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 786
+      width: 242
+      height: 234
+    spriteID: a6de21f28b2c4d546b4a64828bcd7cbb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -170, y: 463}
+  - name: Nacken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 454
+      width: 118
+      height: 131
+    spriteID: 6dadb53b33ee70040a4cbf1eec57d1cd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 84, y: -65}
+  - name: Hand Links
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 299
+      width: 113
+      height: 147
+    spriteID: 59371e3c62b98cb4bb3c07abf8c15af5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 162, y: -131}
+  - name: Cape
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 460
+      height: 287
+    spriteID: f91b359969b406e4f8683fadbc65485e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -81, y: -308}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 1024
+  documentSize: {x: 1024, y: 1024}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Kopf
+    spriteName: Kopf
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 629c281c73ef75148a59cf92003de22b
+    layerID: 7
+    mosaicPosition: {x: 420, y: 786}
+  - name: Stachel kopf
+    spriteName: Stachel kopf
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 14ab5ddda283f64438cb64a826225674
+    layerID: 9
+    mosaicPosition: {x: 393, y: 299}
+  - name: STachel kopf 2
+    spriteName: STachel kopf 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f787ade33d70954459c71db81df9b411
+    layerID: 10
+    mosaicPosition: {x: 481, y: 786}
+  - name: Waffe Rechte Hand
+    spriteName: Waffe Rechte Hand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 633127944b6c0e74fa31fb730d9a28a2
+    layerID: 11
+    mosaicPosition: {x: 4, y: 299}
+  - name: "Stachel R\xFCcken "
+    spriteName: "Stachel R\xFCcken "
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5623c4e724e669c46be82977d000a328
+    layerID: 6
+    mosaicPosition: {x: 254, y: 786}
+  - name: Rock
+    spriteName: Rock
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a6de21f28b2c4d546b4a64828bcd7cbb
+    layerID: 13
+    mosaicPosition: {x: 4, y: 786}
+  - name: Nacken
+    spriteName: Nacken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6dadb53b33ee70040a4cbf1eec57d1cd
+    layerID: 8
+    mosaicPosition: {x: 272, y: 454}
+  - name: Hand Links
+    spriteName: Hand Links
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 59371e3c62b98cb4bb3c07abf8c15af5
+    layerID: 5
+    mosaicPosition: {x: 272, y: 299}
+  - name: Cape
+    spriteName: Cape
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f91b359969b406e4f8683fadbc65485e
+    layerID: 12
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: ClockworkKing_tex Texture
+  prefabAssetName: ClockworkKing_tex Prefab
+  spriteLibAssetName: ClockworkKing_tex Sprite Lib
+  secondarySpriteTextures: []

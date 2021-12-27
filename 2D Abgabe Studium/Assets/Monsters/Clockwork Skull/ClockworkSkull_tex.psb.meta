@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 70fd9f290ab375249acef86f8f7bf0ca
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: "Schraube f\xFCr Zeiger"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 586
+      width: 8
+      height: 10
+    spriteID: 2d50b9223e427e342ba0111c92b224be
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 20, y: -190}
+  - name: Auge
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 543
+      width: 127
+      height: 135
+    spriteID: 677d0cecad95dd643982182b8795ff2f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -179, y: -67}
+  - name: Stunden Zeiger
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 543
+      width: 9
+      height: 35
+    spriteID: b2e85579a6ccf564c92e76bba52ef689
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 20, y: -203}
+  - name: Zeiger Minute
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 838
+      width: 33
+      height: 33
+    spriteID: 8b326c6b4741a78408f03144873c2270
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -119, y: 57}
+  - name: Kopf
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 400
+      height: 350
+    spriteID: 3114d483114b7b2429d18091f287cf80
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -79, y: -536}
+  - name: 'Auge Links '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 686
+      width: 66
+      height: 81
+    spriteID: 598e07045d9409e4fbff9d842c89daf0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -57, y: 52}
+  - name: Auge Links 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 775
+      width: 65
+      height: 55
+    spriteID: cf8cc05e8d8d97b4b9b4410b50cfb844
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -32, y: 141}
+  - name: Kiefer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 362
+      width: 147
+      height: 173
+    spriteID: 734060e423779b0438e63e7a5d5dbbdf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -169, y: -126}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 1024
+  documentSize: {x: 512, y: 1024}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: "Schraube f\xFCr Zeiger"
+    spriteName: "Schraube f\xFCr Zeiger"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2d50b9223e427e342ba0111c92b224be
+    layerID: 7
+    mosaicPosition: {x: 139, y: 586}
+  - name: Auge
+    spriteName: Auge
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 677d0cecad95dd643982182b8795ff2f
+    layerID: 4
+    mosaicPosition: {x: 4, y: 543}
+  - name: Stunden Zeiger
+    spriteName: Stunden Zeiger
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2e85579a6ccf564c92e76bba52ef689
+    layerID: 8
+    mosaicPosition: {x: 139, y: 543}
+  - name: Zeiger Minute
+    spriteName: Zeiger Minute
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8b326c6b4741a78408f03144873c2270
+    layerID: 9
+    mosaicPosition: {x: 4, y: 838}
+  - name: Kopf
+    spriteName: Kopf
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3114d483114b7b2429d18091f287cf80
+    layerID: 13
+    mosaicPosition: {x: 4, y: 4}
+  - name: 'Auge Links '
+    spriteName: 'Auge Links '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 598e07045d9409e4fbff9d842c89daf0
+    layerID: 10
+    mosaicPosition: {x: 4, y: 686}
+  - name: Auge Links 3
+    spriteName: Auge Links 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cf8cc05e8d8d97b4b9b4410b50cfb844
+    layerID: 12
+    mosaicPosition: {x: 4, y: 775}
+  - name: Kiefer
+    spriteName: Kiefer
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 734060e423779b0438e63e7a5d5dbbdf
+    layerID: 6
+    mosaicPosition: {x: 4, y: 362}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: ClockworkSkull_tex Texture
+  prefabAssetName: ClockworkSkull_tex Prefab
+  spriteLibAssetName: ClockworkSkull_tex Sprite Lib
+  secondarySpriteTextures: []

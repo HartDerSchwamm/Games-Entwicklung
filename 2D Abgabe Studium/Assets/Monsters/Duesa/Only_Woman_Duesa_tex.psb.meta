@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 5d499d98b9b5fe74ea7ce562a18a12ed
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Haare Frau 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 405
+      width: 17
+      height: 55
+    spriteID: 81637e40731e5854a80c8d5fcb6f348b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -399, y: -267}
+  - name: Kopf Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 309
+      width: 64
+      height: 63
+    spriteID: 37711c26ee8860349b266bbce9eb406e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -263, y: -383}
+  - name: Arm Rechts Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 397
+      width: 56
+      height: 78
+    spriteID: e4c8c1003e81e2841b37d1f11c0e6b7b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -354, y: -228}
+  - name: Torso Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 405
+      width: 56
+      height: 100
+    spriteID: 3809ecdc787416146ab4ccdf3ee7fba6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -436, y: -198}
+  - name: Arm Links Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 309
+      width: 56
+      height: 80
+    spriteID: 99856eee8fcd36742b8e09bf08e22a51
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -292, y: -299}
+  - name: Bein Rechts Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 4
+      width: 60
+      height: 166
+    spriteID: 6c77891bb0b2b7e4abc881c82256257d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -310, y: -474}
+  - name: Bein Links Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 4
+      width: 32
+      height: 146
+    spriteID: 6a876932f55f3424490a76c001973f04
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -259, y: -484}
+  - name: Stachel Frau 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 483
+      width: 54
+      height: 17
+    spriteID: 57791b6eca85ef943ac0f238bb296fc1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -300, y: -186}
+  - name: Haare Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 178
+      width: 79
+      height: 123
+    spriteID: 1716c546af0f1f94b9521b193c4d5494
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -314, y: -433}
+  - name: 'Stachel Frau '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 380
+      width: 61
+      height: 34
+    spriteID: ab75a68f982696747b9008e63cc5219a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -297, y: -306}
+  - name: Haare Frau 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 195
+      width: 76
+      height: 202
+    spriteID: d1e669e5966ab5d45919061f8485f13a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -465, y: -291}
+  - name: Stachel Kopf Frau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 468
+      width: 22
+      height: 16
+    spriteID: 4d944c53a0c72ef4abc5eb946a68b5bf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -358, y: -236}
+  - name: Haare Frau 3_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 109
+      height: 183
+    spriteID: 9d78aec11b8ee10458e2641fc35842e9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -373, y: -495}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 256
+  importedTextureHeight: 512
+  documentSize: {x: 1024, y: 1024}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 256
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Haare Frau 3
+    spriteName: Haare Frau 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 81637e40731e5854a80c8d5fcb6f348b
+    layerID: 21
+    mosaicPosition: {x: 68, y: 405}
+  - name: Kopf Frau
+    spriteName: Kopf Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 37711c26ee8860349b266bbce9eb406e
+    layerID: 4
+    mosaicPosition: {x: 185, y: 309}
+  - name: Arm Rechts Frau
+    spriteName: Arm Rechts Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e4c8c1003e81e2841b37d1f11c0e6b7b
+    layerID: 6
+    mosaicPosition: {x: 121, y: 397}
+  - name: Torso Frau
+    spriteName: Torso Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3809ecdc787416146ab4ccdf3ee7fba6
+    layerID: 7
+    mosaicPosition: {x: 4, y: 405}
+  - name: Arm Links Frau
+    spriteName: Arm Links Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 99856eee8fcd36742b8e09bf08e22a51
+    layerID: 5
+    mosaicPosition: {x: 121, y: 309}
+  - name: Bein Rechts Frau
+    spriteName: Bein Rechts Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6c77891bb0b2b7e4abc881c82256257d
+    layerID: 14
+    mosaicPosition: {x: 121, y: 4}
+  - name: Bein Links Frau
+    spriteName: Bein Links Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6a876932f55f3424490a76c001973f04
+    layerID: 8
+    mosaicPosition: {x: 189, y: 4}
+  - name: Stachel Frau 2
+    spriteName: Stachel Frau 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 57791b6eca85ef943ac0f238bb296fc1
+    layerID: 13
+    mosaicPosition: {x: 121, y: 483}
+  - name: Haare Frau
+    spriteName: Haare Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1716c546af0f1f94b9521b193c4d5494
+    layerID: 10
+    mosaicPosition: {x: 121, y: 178}
+  - name: 'Stachel Frau '
+    spriteName: 'Stachel Frau '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ab75a68f982696747b9008e63cc5219a
+    layerID: 12
+    mosaicPosition: {x: 185, y: 380}
+  - name: Haare Frau 2
+    spriteName: Haare Frau 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d1e669e5966ab5d45919061f8485f13a
+    layerID: 18
+    mosaicPosition: {x: 4, y: 195}
+  - name: Stachel Kopf Frau
+    spriteName: Stachel Kopf Frau
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4d944c53a0c72ef4abc5eb946a68b5bf
+    layerID: 19
+    mosaicPosition: {x: 68, y: 468}
+  - name: Haare Frau 3
+    spriteName: Haare Frau 3_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d78aec11b8ee10458e2641fc35842e9
+    layerID: 20
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Only_Woman_Duesa_tex Texture
+  prefabAssetName: Only_Woman_Duesa_tex Prefab
+  spriteLibAssetName: Only_Woman_Duesa_tex Sprite Lib
+  secondarySpriteTextures: []
