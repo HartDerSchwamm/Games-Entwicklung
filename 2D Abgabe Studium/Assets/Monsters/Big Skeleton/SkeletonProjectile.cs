@@ -30,13 +30,15 @@ public class SkeletonProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Ground") || collision.CompareTag("Player")) {
         hit = true;
         fire = false;
         boxCollider.enabled = false;
         anim.SetTrigger("Hit");
-        if (collision.CompareTag("Player"))
-        {
-            collision.GetComponent<Health>().TakeDamage(1);
+            if (collision.CompareTag("Player"))
+            {
+               collision.GetComponent<Health>().TakeDamage(1);
+            }
         }
     }
 

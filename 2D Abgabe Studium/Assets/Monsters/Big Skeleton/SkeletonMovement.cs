@@ -6,6 +6,8 @@ public class SkeletonMovement : MonoBehaviour
 {
     private Animator anim;
     private SkeletonAttack skeletonAttack;
+    [SerializeField] private Transform player;
+    [SerializeField] private float attackRange;
 
     private void Awake()
     {
@@ -15,7 +17,10 @@ public class SkeletonMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        Vector3 playerposition = player.transform.position;
+        Vector3 enemyPosition = gameObject.transform.position;
+        float distance = Mathf.Abs(Vector3.Distance(playerposition,enemyPosition));
+        if (distance < attackRange)
         {
             anim.SetTrigger("Shoot");
         }
