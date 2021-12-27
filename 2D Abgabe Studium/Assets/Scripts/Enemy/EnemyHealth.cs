@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    
+    private Animator anim;
     [SerializeField] private float maxHealth;
     public HealthbarBehavior healthbar;
     public float health;
 
-
+     private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     private void Start()
     {
@@ -24,7 +27,12 @@ public class EnemyHealth : MonoBehaviour
 
         if (health <= 0) 
         {
-            Destroy(gameObject);
+            anim.SetTrigger("dead");
         }
+    }
+
+    public void Dead()
+    {
+        Destroy(gameObject);
     }
 }
