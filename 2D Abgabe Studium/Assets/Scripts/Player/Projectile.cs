@@ -5,7 +5,6 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float speed;
     private bool hit;
     private float direction;
-
     private Animator anim;
     private BoxCollider2D boxCollider;
 
@@ -29,6 +28,9 @@ public class Projectile : MonoBehaviour
         hit = true;
         boxCollider.enabled = false;
         anim.SetTrigger("hit");
+
+        collision.GetComponent<EnemyHealth>().TakeHit(1);
+        
     }
 
     public void SetDirection(float direction)
