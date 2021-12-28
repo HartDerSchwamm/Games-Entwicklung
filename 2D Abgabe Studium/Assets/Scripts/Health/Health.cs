@@ -5,6 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
+    [SerializeField] private Transform damagePopupTransform;
     PlayerMovement playerMovement;
     public float currentHealth { get; private set; }
 
@@ -17,6 +18,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, startingHealth);
+        DamagePopupManager.instance.DisplayDamagePopup(damage, damagePopupTransform);
       
         if (currentHealth > 0)
         {
@@ -32,8 +34,7 @@ public class Health : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            TakeDamage(1);
-            print(currentHealth);
+            TakeDamage(Random.Range(1f, 5f));
         }
     }
 }

@@ -26,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Portal Positions")]
     public VectorValue statingPosition;
 
+
+    [Header("Damage Popup")]
+    public Transform damagePopup;
     void Start()
     {
         transform.position = statingPosition.initialValue;

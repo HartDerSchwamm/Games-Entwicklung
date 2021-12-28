@@ -30,7 +30,6 @@ public class Projectile : MonoBehaviour
         anim.SetTrigger("hit");
 
         collision.GetComponent<EnemyHealth>().TakeHit(1);
-        
     }
 
     public void SetDirection(float direction)
