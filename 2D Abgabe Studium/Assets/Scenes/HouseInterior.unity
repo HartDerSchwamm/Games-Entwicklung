@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 993723b4db3edc747bfb57b862000cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: MainScene
   playerPosition: {x: -45.03, y: -0.9}
   playerStorage: {fileID: 11400000, guid: d0c812495f5b0b443b87e5a94434cc0f, type: 2}
 --- !u!1001 &1298340655

@@ -200,6 +200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5652287354402965829}
   - component: {fileID: 7986037123684801245}
+  - component: {fileID: 437347099743865601}
   m_Layer: 0
   m_Name: DamagePopUpParent
   m_TagString: Untagged
@@ -233,3 +234,15 @@ SortingGroup:
   m_SortingLayerID: -365986937
   m_SortingLayer: 2
   m_SortingOrder: 1000
+--- !u!114 &437347099743865601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8015528611014361546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3fe6b7c24b4b5499b1602d26e70ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

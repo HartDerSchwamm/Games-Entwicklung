@@ -31,6 +31,7 @@ public class EnemyHealth : MonoBehaviour
         points.transform.GetChild(0).GetComponent<TextMeshPro>().SetText(damage.ToString());
         Instantiate(floatingDamagePoints, transform.position, Quaternion.identity);
 
+
         if (health <= 0) 
         {
             anim.SetTrigger("dead");
