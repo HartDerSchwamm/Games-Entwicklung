@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -8,8 +9,10 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private float maxHealth;
     public HealthbarBehavior healthbar;
     public float health;
+    [SerializeField] private GameObject floatingDamagePoints;
 
-     private void Awake()
+
+    private void Awake()
     {
         anim = GetComponent<Animator>();
     }
@@ -24,6 +27,9 @@ public class EnemyHealth : MonoBehaviour
     {
         health -= damage;
         healthbar.SetHealth(health, maxHealth);
+        GameObject points = Instantiate(floatingDamagePoints, transform.position, Quaternion.identity) as GameObject;
+        points.transform.GetChild(0).GetComponent<TextMeshPro>().SetText(damage.ToString());
+        Instantiate(floatingDamagePoints, transform.position, Quaternion.identity);
 
         if (health <= 0) 
         {

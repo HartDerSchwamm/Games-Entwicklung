@@ -2606,6 +2606,7 @@ MonoBehaviour:
   maxHealth: 100
   healthbar: {fileID: 401126409}
   health: 0
+  floatingDamagePoints: {fileID: 8015528611014361546, guid: 550ff457ab6b1e642a2f473903296134, type: 3}
 --- !u!61 &245311350
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11776,6 +11777,7 @@ MonoBehaviour:
   maxHealth: 10
   healthbar: {fileID: 857378901}
   health: 0
+  floatingDamagePoints: {fileID: 8015528611014361546, guid: 550ff457ab6b1e642a2f473903296134, type: 3}
 --- !u!61 &778330703
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13804,9 +13806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a93accde764e6924e9eeaa069e7bd9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dissapearTime: 0.5
-  fadeOutSpeed: 5
-  moveYSpeed: 1
+  floatingDamagePoints: {fileID: 0}
 --- !u!1 &1050771232
 GameObject:
   m_ObjectHideFlags: 0

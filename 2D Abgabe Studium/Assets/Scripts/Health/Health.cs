@@ -18,7 +18,6 @@ public class Health : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, startingHealth);
-        DamagePopupManager.instance.DisplayDamagePopup(damage, damagePopupTransform);
       
         if (currentHealth > 0)
         {
