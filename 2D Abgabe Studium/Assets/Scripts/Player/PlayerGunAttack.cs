@@ -6,11 +6,11 @@ using UnityEngine;
 public class PlayerGunAttack : MonoBehaviour
 {
     [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject[] projectiles;
+    [SerializeField] private GameObject projectile;
 
     public void GunAttack()
     {
-        projectiles[0].transform.position = firePoint.position;
-        projectiles[0].GetComponent<Projectile>().SetDirection(-Mathf.Sign(transform.localScale.x));
+        projectile.transform.position = firePoint.position;
+        projectile.GetComponent<Projectile>().SetDirection(-Mathf.Sign(transform.localScale.x));
     }
 }

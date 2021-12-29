@@ -28,8 +28,10 @@ public class Projectile : MonoBehaviour
         hit = true;
         boxCollider.enabled = false;
         anim.SetTrigger("hit");
-
-        collision.GetComponent<EnemyHealth>().TakeHit(1);
+        if (collision.gameObject.CompareTag("Enemy")) 
+        { 
+            collision.GetComponent<EnemyHealth>().TakeHit(1);
+        }
     }
 
     public void SetDirection(float direction)

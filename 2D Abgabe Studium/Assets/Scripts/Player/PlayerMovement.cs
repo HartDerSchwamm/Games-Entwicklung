@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerGunAttack playerGunAttack;
     private float cooldownTimer = Mathf.Infinity;
     private bool isDead;
+    private bool isAttacking;
 
     [Header("Movement")]
     [SerializeField] private float speed;
@@ -54,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
 
         //Flip player when moving left-right
-        if (!onWall && !isDead)
+        if (!onWall && !isDead && !isAttacking)
         {
             if (horizontalInput > 0.01f)
                 transform.localScale = new Vector3(-1, 1, 1);
@@ -68,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("grounded", IsGrounded());
         anim.SetBool("walled", onWall);
         anim.SetBool("swordAttack", Input.GetKeyDown(KeyCode.Mouse0));
-        if (!isDead)
+        if (!isDead && !isAttacking)
         {
 
             if (onWall)
@@ -158,9 +159,14 @@ public class PlayerMovement : MonoBehaviour
         }
         
     }
-    //public void isAttacking(bool attacking)
-    //{
-    //    isAttacking = attacking;
-    //}
+    public void engageAttack()
+    {
+        isAttacking = true;
+    }
+
+    public void disengageAttack()
+    {
+        isAttacking = false;
+    }
 }
 
