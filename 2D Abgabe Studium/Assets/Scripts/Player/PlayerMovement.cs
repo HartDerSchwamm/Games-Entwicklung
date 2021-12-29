@@ -148,6 +148,8 @@ public class PlayerMovement : MonoBehaviour
     public void GetDamage()
     {
         anim.SetTrigger("getDamage");
+        isAttacking = false;
+
     }
 
     public void Die()
