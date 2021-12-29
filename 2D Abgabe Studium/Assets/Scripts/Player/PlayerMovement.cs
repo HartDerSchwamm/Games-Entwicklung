@@ -95,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && !isDead)
         {
-            if (IsGrounded())
+            if (IsGrounded() && !isAttacking)
             {
                 body.velocity = new Vector2(body.velocity.x, jumpPower);
                 anim.SetTrigger("jump");
