@@ -4,14 +4,19 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Other")]
-    [SerializeField] private float attackCooldown;
+    [SerializeField] private float gunCooldown;
+    [SerializeField] private float swordCooldown;
+    [SerializeField] private string activeWeapon = "Hades_sword";
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
     private PlayerGunAttack playerGunAttack;
-    private float cooldownTimer = Mathf.Infinity;
+    private float gunCooldownTimer = Mathf.Infinity;
+    private float swordCooldownTimer = Mathf.Infinity;
     private bool isDead;
-    private bool isAttacking;
+    private bool isShooting;
+    private bool isMeeleing;
+    
 
     [Header("Movement")]
     [SerializeField] private float speed;
@@ -46,16 +51,12 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
 
-        if (Input.GetMouseButtonDown(1) && cooldownTimer > attackCooldown && CanAttack() && !isDead)
-        {
-            anim.SetTrigger("gunAttack");
-            cooldownTimer = 0;
-        }
-        cooldownTimer += Time.deltaTime;
+        gunCooldownTimer += Time.deltaTime;
+        swordCooldownTimer += Time.deltaTime;
         horizontalInput = Input.GetAxis("Horizontal");
 
         //Flip player when moving left-right
-        if (!onWall && !isDead && !isAttacking)
+        if (!onWall && !isDead && !isShooting && !isMeeleing)
         {
             if (horizontalInput > 0.01f)
                 transform.localScale = new Vector3(-1, 1, 1);
@@ -68,10 +69,9 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", IsGrounded());
         anim.SetBool("walled", onWall);
-        anim.SetBool("swordAttack", Input.GetKeyDown(KeyCode.Mouse0));
-        if (!isDead && !isAttacking)
-        {
 
+        if (!isDead && !isShooting && !isMeeleing)
+        {
             if (onWall)
             {
                 body.velocity = Vector2.zero;
@@ -93,9 +93,48 @@ public class PlayerMovement : MonoBehaviour
 
         //Key Input logic
 
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            SetActiveWeapon("Hades_sword");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SetActiveWeapon("ygg_sword");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SetActiveWeapon("Tantalus_sword");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            SetActiveWeapon("Remment_sword");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            SetActiveWeapon("Demeres_sword");
+        }
+
+        if (Input.GetMouseButtonDown(0) && swordCooldownTimer > swordCooldown && CanAttack() && !isDead && !isShooting)
+        {
+            isMeeleing = true;
+            anim.SetTrigger("swordAttack");
+            swordCooldownTimer = 0;
+        }
+
+        if (Input.GetMouseButtonDown(1) && gunCooldownTimer > gunCooldown && CanAttack() && !isDead && !isMeeleing)
+        {
+            isShooting = true;
+            anim.SetTrigger("gunAttack");
+            gunCooldownTimer = 0;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space) && !isDead)
         {
-            if (IsGrounded() && !isAttacking)
+            if (IsGrounded() && !isShooting && !isMeeleing)
             {
                 body.velocity = new Vector2(body.velocity.x, jumpPower);
                 anim.SetTrigger("jump");
@@ -148,7 +187,9 @@ public class PlayerMovement : MonoBehaviour
     public void GetDamage()
     {
         anim.SetTrigger("getDamage");
-        isAttacking = false;
+        isShooting = false;
+        isMeeleing = false;
+        gameObject.transform.GetChild(2).GetChild(0).GetChild(2).GetChild(0).GetChild(1).transform.Find(activeWeapon).gameObject.GetComponent<PolygonCollider2D>().enabled = false;
 
     }
 
@@ -161,14 +202,29 @@ public class PlayerMovement : MonoBehaviour
         }
         
     }
-    public void engageAttack()
+
+    public void SetActiveWeapon(string newWeapon)
     {
-        isAttacking = true;
+        GameObject oldWeaponObj = gameObject.transform.GetChild(2).GetChild(0).GetChild(2).GetChild(0).GetChild(1).transform.Find(activeWeapon).gameObject;
+        oldWeaponObj.SetActive(false);
+        GameObject newWeaponObj = gameObject.transform.GetChild(2).GetChild(0).GetChild(2).GetChild(0).GetChild(1).transform.Find(newWeapon).gameObject;
+        newWeaponObj.SetActive(true);
+        activeWeapon = newWeapon;
     }
 
-    public void disengageAttack()
+    public void deactivateRangedAttack()
     {
-        isAttacking = false;
+        isShooting = false;
+    }
+    public void activateMeeleAttack()
+    {
+        gameObject.transform.GetChild(2).GetChild(0).GetChild(2).GetChild(0).GetChild(1).transform.Find(activeWeapon).gameObject.GetComponent<PolygonCollider2D>().enabled = true;
+    }
+
+    public void deactivateMeeleAttack()
+    {
+        isMeeleing = false;
+        gameObject.transform.GetChild(2).GetChild(0).GetChild(2).GetChild(0).GetChild(1).transform.Find(activeWeapon).gameObject.GetComponent<PolygonCollider2D>().enabled = false;
     }
 }
 
