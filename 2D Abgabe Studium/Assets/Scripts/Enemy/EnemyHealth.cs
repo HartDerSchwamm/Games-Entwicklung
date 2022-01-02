@@ -29,8 +29,6 @@ public class EnemyHealth : MonoBehaviour
         healthbar.SetHealth(health, maxHealth);
         GameObject points = Instantiate(floatingDamagePoints, transform.position, Quaternion.identity) as GameObject;
         points.transform.GetChild(0).GetComponent<TextMeshPro>().SetText(damage.ToString());
-        Instantiate(floatingDamagePoints, transform.position, Quaternion.identity);
-
 
         if (health <= 0) 
         {
