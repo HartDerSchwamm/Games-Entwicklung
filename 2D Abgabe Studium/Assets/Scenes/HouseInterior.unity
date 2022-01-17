@@ -1518,7 +1518,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1218043210}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 9098646012425251102, guid: 7229642e75f945b4791c85afcda8b4ce, type: 3}
       propertyPath: m_Name
@@ -1546,7 +1546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9098646012425549118, guid: 7229642e75f945b4791c85afcda8b4ce, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9098646012425549118, guid: 7229642e75f945b4791c85afcda8b4ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2507,7 +2507,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1218043210}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &429636763
 EdgeCollider2D:
@@ -2544,11 +2544,6 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
---- !u!4 &449818547 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9098646012425549118, guid: 7229642e75f945b4791c85afcda8b4ce, type: 3}
-  m_PrefabInstance: {fileID: 240793110}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &452402204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6642,11 +6637,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1218043210}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3186422445759746052, guid: 19d1c5feb16889d41929227d559e1d0a, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3186422445759746052, guid: 19d1c5feb16889d41929227d559e1d0a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6792,6 +6787,10 @@ PrefabInstance:
       propertyPath: projectile
       value: 
       objectReference: {fileID: 8496583618892767087, guid: a216f87ae1691064486d50dd88953902, type: 3}
+    - target: {fileID: 5757280216476674901, guid: 19d1c5feb16889d41929227d559e1d0a, type: 3}
+      propertyPath: jumpPower
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5757280216476674901, guid: 19d1c5feb16889d41929227d559e1d0a, type: 3}
       propertyPath: damagePopup
       value: 
@@ -7005,10 +7004,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 449818547}
   - {fileID: 429636762}
   - {fileID: 1280237284}
-  - {fileID: 1202575846}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7232,7 +7229,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1218043210}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1280237285
 MonoBehaviour:

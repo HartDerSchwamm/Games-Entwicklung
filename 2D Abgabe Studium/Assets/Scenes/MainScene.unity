@@ -654,7 +654,6 @@ GameObject:
   m_Component:
   - component: {fileID: 48081521}
   - component: {fileID: 48081523}
-  - component: {fileID: 48081522}
   m_Layer: 6
   m_Name: Roof Wood 3
   m_TagString: Ground
@@ -676,29 +675,6 @@ Transform:
   m_Father: {fileID: 730031591}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &48081522
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4379670302123693101, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
-  m_PrefabInstance: {fileID: 1982035317}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48081520}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -1.4989715, y: 1.8902421}
-  - {x: 0.4640808, y: 1.8882645}
-  - {x: 2.6144004, y: 1.9232874}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!212 &48081523
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14288,7 +14264,6 @@ GameObject:
   m_Component:
   - component: {fileID: 826333061}
   - component: {fileID: 826333063}
-  - component: {fileID: 826333062}
   m_Layer: 6
   m_Name: Roof Wood 3
   m_TagString: Ground
@@ -14310,28 +14285,6 @@ Transform:
   m_Father: {fileID: 730031591}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &826333062
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4379670300301234465, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
-  m_PrefabInstance: {fileID: 1982035317}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826333060}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -1.5359931, y: 1.8820963}
-  - {x: 2.6174865, y: 1.8719392}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!212 &826333063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27061,6 +27014,22 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 893893833
       objectReference: {fileID: 0}
+    - target: {fileID: 4379670300301234465, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670300301234465, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[0].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670300301234465, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[1].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670300301234465, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[1].y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4379670300356352351, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
       propertyPath: m_SortingLayer
       value: 1
@@ -27279,6 +27248,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4379670302011916698, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670302123693101, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670302123693101, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[0].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670302123693101, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[1].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670302123693101, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[1].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670302123693101, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[2].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379670302123693101, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
+      propertyPath: m_Points.Array.data[2].y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4379670302162309095, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
@@ -27541,7 +27534,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5e9668d067190204490e1711fc924cb3, type: 3}
 --- !u!1 &2011125851
 GameObject:
@@ -34293,6 +34287,14 @@ PrefabInstance:
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1516070602}
+    - target: {fileID: 5757280216476674901, guid: 19d1c5feb16889d41929227d559e1d0a, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757280216476674901, guid: 19d1c5feb16889d41929227d559e1d0a, type: 3}
+      propertyPath: jumpPower
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5757280216476674901, guid: 19d1c5feb16889d41929227d559e1d0a, type: 3}
       propertyPath: damagePopup
       value: 
