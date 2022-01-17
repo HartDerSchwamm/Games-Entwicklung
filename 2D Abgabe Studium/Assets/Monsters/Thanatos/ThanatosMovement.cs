@@ -20,7 +20,10 @@ public class ThanatosMovement : MonoBehaviour
         float distance = Mathf.Abs(Vector3.Distance(playerposition, enemyPosition));
         if (distance < attackRange)
         {
-            anim.SetTrigger("attack");
+            anim.SetBool("attack",true);
+        }else
+        {
+            anim.SetBool("attack", false);
         }
     }
 
