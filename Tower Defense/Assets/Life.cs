@@ -24,4 +24,13 @@ public class Life : MonoBehaviour
     {
         lives--;
     }
+    public int getLives()
+    {
+        return lives;
+    }
+
+    public void setLives(int setLives)
+    {
+        lives = setLives;
+    }
 }

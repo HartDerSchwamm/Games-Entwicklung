@@ -10,7 +10,7 @@ public class WaveSpawner : MonoBehaviour
     [SerializeField] float timeBetweenWaves;
     [SerializeField] Text waveCountdownText;
 
-
+    private string gameOver = "Game Over";
     private float waitForSpawn = 1f;
     private float countdown = 2f;
     private int waveNumber = 1;
@@ -19,14 +19,22 @@ public class WaveSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(countdown <= 0f)
+        if (GetComponent<Life>().getLives() <= 0)
         {
-            StartCoroutine(SpawnWave());
-            countdown = timeBetweenWaves;
+            waveCountdownText.text = gameOver;
+            GetComponent<Life>().setLives(0);
         }
+        else
+        {
+            if (countdown <= 0f)
+            {
+                StartCoroutine(SpawnWave());
+                countdown = timeBetweenWaves;
+            }
 
-        countdown -= Time.deltaTime;
-        waveCountdownText.text = Mathf.Round(countdown).ToString();
+            countdown -= Time.deltaTime;
+            waveCountdownText.text = Mathf.Round(countdown).ToString();
+        }
     }
 
     IEnumerator SpawnWave()
@@ -35,9 +43,11 @@ public class WaveSpawner : MonoBehaviour
 
         for (int i = 0; i < waveNumber; i++)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(waitForSpawn);
+           SpawnEnemy();
+           yield return new WaitForSeconds(waitForSpawn);
         }
+
+        
         
     }
 

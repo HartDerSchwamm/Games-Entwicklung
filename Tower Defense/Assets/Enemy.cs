@@ -18,12 +18,19 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = target.position - transform.position;
-        transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
-
-        if(Vector3.Distance(transform.position, target.position) <= 0.2f)
+        if (gameMaster.GetComponent<Life>().getLives() <= 0)
         {
-            GetNextWaypoint();
+            Destroy(gameObject);
+        }
+        else
+        {
+            Vector3 direction = target.position - transform.position;
+            transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
+
+            if (Vector3.Distance(transform.position, target.position) <= 0.2f)
+            {
+                GetNextWaypoint();
+            }
         }
     }
     // Go trought the Array Waypoints to get the next Waypoint.
