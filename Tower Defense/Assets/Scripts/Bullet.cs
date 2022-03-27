@@ -10,7 +10,6 @@ public class Bullet : MonoBehaviour
 
     public void Seek(Transform _target)
     {
-        print("Im Here");
         target = _target;
     }
 
