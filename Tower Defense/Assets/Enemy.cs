@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float speed;
+    [SerializeField] Transform gameMaster;
 
     private Transform target;
     private int wavePointIndex = 0;
@@ -31,6 +32,7 @@ public class Enemy : MonoBehaviour
         if(wavePointIndex >= WayPoints.points.Length -1 )
         {
             Destroy(gameObject);
+            gameMaster.GetComponent<Life>().TookLife();
         }
         else {
             wavePointIndex++;
